@@ -41,7 +41,7 @@ def initial_s(qc, n):
 ### GROVER ORACLE ###
 def Uf(n, wstate):
     
-    ## Quantum Circuit Application of Uf ##
+    ## Quantum Circuit for Application of Uf ##
     qc = QuantumCircuit(n)
     
     ## 1st Set of X Gates for Tagged State ##
